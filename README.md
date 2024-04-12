@@ -18,3 +18,8 @@ but you need to go beyond that.
 ## Runtime Analysis
 
 What is the worst-case big $\Theta$ time complexity of your algorithm?
+
+### Analysis
+The worst-case for my bottom up function is $\Theta(n)$ because I have one if else statement, the if is constant time and the else has one for loop. That for loop iterates from i=1 to i <= n; so the complexity is $\Theta(n)$, values are updated in the for loop but all in constant time. <br/>
+<br/>
+I looked at classmates analyses to confirm my analysis and I then added a little extra about the rest being constant time.
